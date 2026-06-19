@@ -18,6 +18,7 @@
         .hero { padding: 100px 0 80px; text-align: center; }
         .hero h1 { font-size: 3.5rem; font-weight: 800; line-height: 1.15; background: linear-gradient(135deg, #2563eb, #9333ea); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 25px; }
         .hero p { font-size: 1.3rem; max-width: 750px; margin: 0 auto 35px; color: #475569; }
+        .hero .origin-tag { display: inline-block; background: #fef3c7; color: #92400e; padding: 6px 20px; border-radius: 50px; font-weight: 600; font-size: 0.9rem; margin-bottom: 20px; }
         .btn { display: inline-block; background: #2563eb; color: #fff; padding: 15px 40px; border-radius: 10px; text-decoration: none; font-weight: 600; font-size: 1rem; transition: 0.3s; box-shadow: 0 10px 25px -10px #2563eb; }
         .btn:hover { background: #1d4ed8; transform: translateY(-2px); }
         .section { padding: 80px 0; }
@@ -33,9 +34,6 @@
         .vision-box { background: linear-gradient(135deg, #1e293b, #334155); color: #fff; padding: 50px; border-radius: 20px; text-align: center; max-width: 800px; margin: 0 auto; }
         .vision-box h3 { font-size: 1.8rem; margin-bottom: 15px; }
         .vision-box p { opacity: 0.9; }
-        .grid-4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 25px; }
-        .reason-card { background: #fff; padding: 25px; border-radius: 14px; box-shadow: 0 5px 20px rgba(0,0,0,0.03); border: 1px solid #f1f5f9; }
-        .reason-card h4 { font-size: 1.2rem; margin-bottom: 10px; color: #1e293b; }
         footer { background: #0f172a; color: #94a3b8; padding: 30px 0; text-align: center; font-size: 0.9rem; }
     </style>
 </head>
@@ -48,16 +46,16 @@
     <nav>
         <a href="#about">Vision</a>
         <a href="#tech">R&D</a>
-        <a href="#traction">Impact</a>
-        <a href="#contest">Edge</a>
-        <a href="#contact">Connect</a>
+        <a href="#stacks">Stacks</a>
+        <a href="#sovereignty">Sovereignty</a>
     </nav>
 </header>
 
 <section class="hero container">
+    <div class="origin-tag">🇲🇦 Born in Morocco · Engineered for Global Scale</div>
     <h1>Autonomous Service Orchestration<br>Powered by Mixture‑of‑Experts AI</h1>
-    <p>AI‑Haja is an AI R&D lab building foundation models for applied service operations. We automate complex cognitive workflows that traditionally required expert human judgement — across staffing, logistics, and beyond. Born in Morocco, engineered for global scale.</p>
-    <a href="#contact" class="btn">Partner with R&D →</a>
+    <p>AI‑Haja is a Moroccan AI R&D lab developing foundation technology for autonomous service operations. Our prototype cognitive pipelines are demonstrating the feasibility of automating complex expert workflows — from intelligent document generation to multi‑step decision support — using a proprietary Mixture‑of‑Experts architecture. We are in active prototyping, preparing the ground for early field validation.</p>
+    <a href="#stacks" class="btn">Explore the Stack →</a>
 </section>
 
 <section id="about" class="container section">
@@ -69,65 +67,51 @@
         </div>
         <div class="card">
             <h3>🟢 Cognitive Pipelines, Not Bots</h3>
-            <p>We're building multi‑agent AI systems that reason over unstructured data and produce actionable service outputs — in seconds. It's not a chatbot. It's an autonomous service workforce.</p>
+            <p>We're prototyping multi‑agent AI systems that reason over unstructured data and produce actionable service outputs — in seconds. It's not a chatbot. It's an autonomous service workforce, still in the lab.</p>
         </div>
     </div>
 </section>
 
 <section id="tech" class="container section">
     <h2>R&D Architecture</h2>
-    <p class="subhead">A proprietary Mixture‑of‑Experts framework orchestrated on AWS Bedrock, combining frontier models for reasoning with lightweight experts for speed — all in a single, seamless API.</p>
+    <p class="subhead">A proprietary Mixture‑of‑Experts framework orchestrated on elastic cloud infrastructure, combining frontier models for reasoning with lightweight experts for speed — all in a single, seamless API. Designed for both global hyperscalers and local, sovereignty‑aware deployments. Currently at prototype stage.</p>
     <div class="badge-cloud">
-        <span class="badge">Amazon Bedrock</span>
         <span class="badge">Mixture‑of‑Experts (MoE)</span>
-        <span class="badge">Claude 3.5 Sonnet</span>
-        <span class="badge">Claude 3.5 Haiku</span>
-        <span class="badge">Adaptive Routing Networks</span>
-        <span class="badge">AWS Activate Incubated</span>
+        <span class="badge">Foundation Model Routing</span>
         <span class="badge">Serverless Inference</span>
         <span class="badge">Multi‑Agent Orchestration</span>
+        <span class="badge">Adaptive Expert Networks</span>
+        <span class="badge">Cloud & Local LLM Ready</span>
     </div>
 </section>
 
-<section id="traction" class="container section">
-    <h2>Real‑World Deployment</h2>
-    <div class="vision-box">
-        <h3>⚡ Already transforming service operations in Africa</h3>
-        <p style="font-size: 1.1rem;">Our cognitive pipelines are processing thousands of complex service decisions monthly — reducing turnaround time by <strong>70%</strong> while improving output quality. Trusted by early‑adopter service organizations in the Souss‑Massa region, with international scalability built into the architecture.</p>
-    </div>
-</section>
-
-<section id="contest" class="container section">
-    <h2>Why AI‑Haja Wins for Judges & Investors</h2>
-    <div class="grid-4">
-        <div class="reason-card">
-            <h4>🧠 Fundamental AI R&D</h4>
-            <p>We're not wrapping APIs. We're designing novel expert‑mixing architectures that push the frontier of efficient AI cognition.</p>
+<section id="stacks" class="container section">
+    <h2>Local LLM‑Ready Operational Stacks</h2>
+    <p class="subhead">We build technology that doesn't depend on a single vendor's cloud. AI‑Haja's orchestration layer is engineered to pair with any instruction‑tuned model — from frontier APIs to open‑weight models running on‑premise. Our prototype already demonstrates that the same cognitive pipelines can be deployed entirely inside local infrastructure, with data never leaving the secure environment.</p>
+    <div class="grid-2" style="margin-top: 40px;">
+        <div class="card">
+            <h3>⚙️ Model‑Agnostic Core</h3>
+            <p>Our router abstracts the underlying LLM. Swap in Llama 4, Mistral, Cohere, or your own fine‑tuned expert — the pipeline keeps running, no rewrites.</p>
         </div>
-        <div class="reason-card">
-            <h4>🌍 Massive Latent Market</h4>
-            <p>Global service operations automation is a $200B+ opportunity, with Africa as the ideal leapfrog proving ground.</p>
-        </div>
-        <div class="reason-card">
-            <h4>📈 AWS‑Native Scalability</h4>
-            <p>Built entirely on AWS Bedrock and serverless primitives. Our compute scales automatically with zero ops overhead.</p>
-        </div>
-        <div class="reason-card">
-            <h4>🏆 Contest‑Ready Narrative</h4>
-            <p>Deep tech, African innovation, employment impact, and AWS partnership — a story that resonates with every jury.</p>
+        <div class="card">
+            <h3>🔒 Sovereignty by Design</h3>
+            <p>Operational stacks that respect data gravity. Deploy on‑prem, in your private cloud, or air‑gapped — we're ready. Ideal for regulated industries and national infrastructure.</p>
         </div>
     </div>
 </section>
 
-<section id="contact" class="container section" style="text-align: center;">
-    <h2>We're Quietly Building the Future</h2>
-    <p class="subhead">AWS credits accelerate our compute. Contest funding accelerates our roadmap. If you're evaluating AI‑Haja for a grant, credit program, or partnership — let's connect.</p>
-    <p style="margin-top: 30px; font-weight: 600; color: #2563eb;">research@ai-haja.com</p>
+<section id="sovereignty" class="container section">
+    <h2>Digital Sovereignty & National Capacity</h2>
+    <p class="subhead">AI‑Haja is a strategic contribution to Morocco's technological independence. We are building the country’s homegrown AI orchestration layer, reducing dependency on foreign‑owned SaaS for critical service functions. Our R&D creates local intellectual property and high‑skilled engineering pathways — entirely developed in Morocco, by Moroccan talent.</p>
+    <div class="vision-box" style="margin-top: 40px;">
+        <h3>🏛️ Local IP, Global Ambition</h3>
+        <p style="font-size: 1.1rem;">We retain full ownership of our core orchestration engine. Every line of code is written in Morocco. This is a sovereign, export‑ready AI product company in the making — not a reseller, not a wrapper. Prototyping today, powering critical services tomorrow.</p>
+    </div>
 </section>
 
 <footer>
     <div class="container">
-        <p>© 2026 AI‑Haja R&D. Autonomous Service Operations for the Next Billion.</p>
+        <p>© 2026 AI‑Haja R&D. Moroccan Innovation, Global Impact.</p>
     </div>
 </footer>
 
